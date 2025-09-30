@@ -1,0 +1,131 @@
+Build me a React + TailwindCSS one-page landing website for a company named “Aura Persona.”
+
+Requirements:
+
+
+
+
+
+Header: Minimalistic static header with logo + name, and active navigation links with Lucide React icons: Home, About Us, Services, Testimonials, Team, Contact Us.
+
+
+
+Hero/About Section: Eye-catchy modern hero with a Swiper carousel containing 3–4 slides (each with <h2>, <p>, and a button in the middle).
+
+
+
+About Us Section: Split layout, image on left, text on right with heading, description, and button (Explore Services).
+
+
+
+Services Section (Part 1): 4 services displayed with icon + image + explanation each.
+
+
+
+Call to Action Section: Bold gradient background with “Get Started” button.
+
+
+
+Services Section (Part 2): Grid of 6 services, each with Lucide icons and descriptions.
+
+
+
+Testimonials Section: Around 30 testimonials. Implement three marquee rows:
+
+
+
+
+
+1 row animating 15sec rightward1 (10 testimonials)
+
+
+
+1 row animating 9sec leftward (10 testimonials)
+
+
+
+1 row animating 15sec rightward (10 testimonials).
+
+
+
+FAQ Section: Modern accordion FAQ.
+
+
+
+Team Section: Swiper carousel of 8 team members (portrait image + name + position + short bio).
+
+
+
+Contact Us Section: Professional form (Name, Email, Message) with embedded Google Map, plus company details (mail, phone, social media links).
+
+
+
+Footer: Simple responsive footer with copyright.
+
+
+
+Colors: Use the following palette (with gradients as needed):
+
+
+
+
+
+#030617 (dark navy),
+
+
+
+#04213a (deep navy),
+
+
+
+#083a6a (blue),
+
+
+
+#ffbf00 (gold),
+
+
+
+#ffd400 (yellow).
+
+
+
+Animations: Full AOS (Animate On Scroll) effects throughout sections.
+
+
+
+Loading Screen: Custom animated loader before site fully loads.
+
+
+
+Responsive: Must work seamlessly on mobile, tablet, and desktop.
+
+Tech stack & libraries:
+
+
+
+
+
+React + Vite
+
+
+
+Tailwind CSS
+
+
+
+Lucide-React (for icons)
+
+
+
+Swiper (for sliders)
+
+
+
+AOS (for animations)
+
+
+
+react-fast-marquee (for testimonials animation)
+
+Deliver a single working project with all sections included, professional styling, and placeholder images/text where needed.
