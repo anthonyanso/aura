@@ -45,15 +45,14 @@ export async function setupVite(app: Express, server: Server) {
     const url = req.originalUrl;
 
     try {
-      const srcTemplate = path.resolve(
+      const rootTemplate = path.resolve(
         import.meta.dirname,
         "..",
-        "src",
-        "index.html",
+        "index.html"
       );
 
       // always reload the index.html file from disk incase it changes
-      let template = await fs.promises.readFile(srcTemplate, "utf-8");
+      let template = await fs.promises.readFile(rootTemplate, "utf-8");
       template = template.replace(
         `src="/src/main.tsx"`,
         `src="/src/main.tsx?v=${nanoid()}"`,

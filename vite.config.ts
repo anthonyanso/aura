@@ -7,17 +7,17 @@ export default defineConfig({
   plugins: [
     react(),
     runtimeErrorOverlay(),
-    ...(process.env.NODE_ENV !== "production" &&
-    process.env.REPL_ID !== undefined
-      ? [
-          await import("@replit/vite-plugin-cartographer").then((m) =>
-            m.cartographer(),
-          ),
-          await import("@replit/vite-plugin-dev-banner").then((m) =>
-            m.devBanner(),
-          ),
-        ]
-      : []),
+    // Comment these out to stop Replit from rewriting paths
+    // ...(process.env.NODE_ENV !== "production" && process.env.REPL_ID !== undefined
+    //   ? [
+    //       await import("@replit/vite-plugin-cartographer").then((m) =>
+    //         m.cartographer(),
+    //       ),
+    //       await import("@replit/vite-plugin-dev-banner").then((m) =>
+    //         m.devBanner(),
+    //       ),
+    //     ]
+    //   : []),
   ],
   resolve: {
     alias: {
@@ -26,7 +26,7 @@ export default defineConfig({
       "@assets": path.resolve(import.meta.dirname, "attached_assets"),
     },
   },
-  root: path.resolve(import.meta.dirname, "src"),
+  root: path.resolve(import.meta.dirname),
   build: {
     outDir: path.resolve(import.meta.dirname, "dist"),
     emptyOutDir: true,
@@ -38,3 +38,4 @@ export default defineConfig({
     },
   },
 });
+

@@ -40,30 +40,6 @@ const teamMembers = [
     bio: "Growth marketing expert with proven track record of scaling brands globally.",
     image: team4,
   },
-  {
-    name: "Emily Patterson",
-    position: "VP of Operations",
-    bio: "Operations specialist ensuring seamless delivery and exceptional client experiences.",
-    image: team5,
-  },
-  {
-    name: "Jonathan Blake",
-    position: "Creative Director",
-    bio: "Award-winning designer crafting compelling visual experiences for leading brands.",
-    image: team6,
-  },
-  {
-    name: "Rachel Foster",
-    position: "Financial Controller",
-    bio: "Financial strategist optimizing resources and driving sustainable business growth.",
-    image: team7,
-  },
-  {
-    name: "Michael Stevens",
-    position: "Head of People",
-    bio: "Culture champion building high-performing teams and fostering innovation.",
-    image: team8,
-  },
 ];
 
 export default function TeamSection() {
@@ -113,12 +89,10 @@ export default function TeamSection() {
             Talented professionals dedicated to delivering excellence and driving your success forward.
           </p>
         </div>
-
         <Swiper
           modules={[Autoplay, Navigation, Pagination]}
           spaceBetween={30}
           slidesPerView={1}
-          navigation
           pagination={{ clickable: true }}
           autoplay={{ delay: 4000, disableOnInteraction: false }}
           breakpoints={{

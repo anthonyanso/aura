@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Home, Users, Briefcase, MessageSquare, UserCircle, Mail, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import LogoImg from "@/assets/img/Logo.png";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -40,9 +41,11 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center space-x-3">
-            <div className="h-10 w-10 rounded-md bg-gradient-to-br from-gold to-gold-light flex items-center justify-center">
-              <span className="text-navy-dark font-bold text-xl">AP</span>
-            </div>
+            <img
+              src={LogoImg}
+              alt="Aura Persona Logo"
+              className="h-12 w-auto object-contain"
+            />
             <h1 className="text-2xl font-bold text-white">
               Aura <span className="text-gold">Persona</span>
             </h1>

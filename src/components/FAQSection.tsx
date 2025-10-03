@@ -7,44 +7,20 @@ import {
 
 const faqs = [
   {
-    question: "What services does Aura Persona offer?",
-    answer: "We provide comprehensive digital solutions including business consulting, custom software development, digital marketing, cloud solutions, cybersecurity, process automation, data analytics, and 24/7 technical support.",
+    question: "How do I get started with Aura Persona?",
+    answer: "To get started, simply reach out to us via the contact page or email us directly. We will schedule an introductory meeting to discuss your goals, vision, and how we can best support you in your journey.",
   },
   {
-    question: "How long does a typical project take?",
-    answer: "Project timelines vary based on scope and complexity. Simple projects may take 4-6 weeks, while comprehensive enterprise solutions can span 3-6 months. We provide detailed timelines during initial consultation.",
+    question: "What services does Aura Persona provide?",
+    answer: "We offer a range of services including talent management, public relations, brand strategy, digital content creation, event coordination, sponsorships, and talent development. Our services are tailored to suit each client's unique needs and goals.",
   },
   {
-    question: "Do you work with startups or only established companies?",
-    answer: "We work with businesses of all sizes, from startups to Fortune 500 companies. Our solutions are scalable and tailored to meet the unique needs and budgets of each client.",
+    question: "How does Aura Persona handle media relations?",
+    answer: "Aura Persona provides comprehensive media relations services, including managing interviews, press releases, and strategic publicity. We work closely with you to craft your public image, ensuring consistent messaging that resonates with your audience and enhances your brand visibility.",
   },
   {
-    question: "What industries do you specialize in?",
-    answer: "We have expertise across multiple industries including technology, healthcare, finance, retail, manufacturing, education, and non-profit organizations. Our diverse experience allows us to adapt solutions to any sector.",
-  },
-  {
-    question: "How do you ensure project success?",
-    answer: "We follow agile methodologies with regular communication, milestone tracking, and iterative feedback loops. Our dedicated project managers ensure transparency and alignment throughout the entire process.",
-  },
-  {
-    question: "What kind of support do you provide after project completion?",
-    answer: "We offer comprehensive post-launch support including 24/7 technical assistance, regular maintenance, performance monitoring, security updates, and ongoing optimization services.",
-  },
-  {
-    question: "Can you integrate with our existing systems?",
-    answer: "Absolutely! We specialize in seamless integration with existing infrastructure, ensuring minimal disruption while maximizing the value of your current technology investments.",
-  },
-  {
-    question: "How do you handle data security and privacy?",
-    answer: "Security is our top priority. We implement industry-leading security protocols, conduct regular audits, ensure compliance with regulations like GDPR and HIPAA, and maintain strict data protection standards.",
-  },
-  {
-    question: "What is your pricing model?",
-    answer: "We offer flexible pricing models including project-based, retainer, and hourly rates depending on your needs. Every project begins with a free consultation to discuss budget and requirements.",
-  },
-  {
-    question: "How can I get started with Aura Persona?",
-    answer: "Simply fill out our contact form or give us a call. We'll schedule a free consultation to understand your needs, discuss potential solutions, and create a customized proposal for your project.",
+    question: "How can I book an appearance or event with Aura Persona?",
+    answer: "To book an appearance or event, contact us with your requirements. We'll work with you to schedule the event, coordinate logistics, and ensure everything is executed smoothly, whether it's a red carpet event, a private screening, or a charity fundraiser.",
   },
 ];
 

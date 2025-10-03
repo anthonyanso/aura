@@ -13,10 +13,10 @@ export default function CTASection() {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-4xl mx-auto" data-aos="zoom-in">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-navy-dark mb-6">
-            Ready to Transform Your Business?
+            Ready to Transform Your Brand?
           </h2>
           <p className="text-xl text-navy-deep mb-10">
-            Join hundreds of successful companies that have partnered with Aura Persona to achieve their digital transformation goals.
+            Step into the spotlight with Aura Persona. Let’s craft a powerful, authentic public image that aligns with your goals and resonates with your audience. Take control of your narrative today.
           </p>
           <Button
             size="lg"

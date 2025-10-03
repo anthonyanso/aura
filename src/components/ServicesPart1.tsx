@@ -1,35 +1,49 @@
-import { Briefcase, Code, TrendingUp, Cloud } from "lucide-react";
+import { Briefcase, Users, Megaphone, Target, Globe2, ShieldCheck } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
-import consultingImage from "@assets/generated_images/Service_consulting_image_6a2b3001.png";
-import developmentImage from "@assets/generated_images/Service_development_image_977db785.png";
-import marketingImage from "@assets/generated_images/Service_marketing_image_27861f18.png";
 import cloudImage from "@assets/generated_images/Service_cloud_solutions_image_8db22d2b.png";
+import PersonalBrandngImage from "@/assets/img/services/PersonalBranding.jpg";
+import EventMedia from "@/assets/img/services/event_planning.jpg";
+import PublicRelation from "@/assets/img/services/public_relation.jpg";
+import GlobalMedia from "@/assets/img/services/media_outreach.jpg";
+import Reputation from "@/assets/img/services/reputation_management.jpg";
 
 const services = [
   {
     icon: Briefcase,
-    title: "Business Consulting",
-    description: "Strategic guidance to optimize operations, enhance efficiency, and accelerate growth through data-driven insights and proven methodologies.",
-    image: consultingImage,
+    title: "Personal Branding",
+    description: "Craft a powerful personal image that resonates with your audience and aligns with your core values.",
+    image: PersonalBrandngImage,
   },
   {
-    icon: Code,
-    title: "Custom Development",
-    description: "Tailored software solutions built with cutting-edge technologies to meet your specific business requirements and scale with your growth.",
-    image: developmentImage,
+    icon: Users,
+    title: "Event & Media Strategy",
+    description: "Ensure every public appearance is impactful and every media interaction strengthens your reputation.",
+    image: EventMedia,
   },
   {
-    icon: TrendingUp,
-    title: "Digital Marketing",
-    description: "Comprehensive marketing strategies leveraging SEO, social media, and content marketing to amplify your brand and drive measurable results.",
-    image: marketingImage,
+    icon: Megaphone,
+    title: "Public Relations",
+    description: "Communicate with confidence. Our PR strategies help manage your narrative and build trust with your audience.",
+    image: PublicRelation,
   },
   {
-    icon: Cloud,
-    title: "Cloud Solutions",
-    description: "Secure, scalable cloud infrastructure and migration services to modernize your operations and reduce IT overhead costs.",
+    icon: Target,
+    title: "Brand Positioning",
+    description: "Identify and highlight what sets you apart with clear, consistent messaging and strategic positioning.",
     image: cloudImage,
+  },
+  {
+    icon: Globe2,
+    title: "Global Media Outreach",
+    description: "Expand your influence with our international media outreach services tailored to your goals.",
+    image: GlobalMedia,
+  },
+  {
+    icon: ShieldCheck,
+    title: "Reputation Management",
+    description: "Safeguard your image with proactive reputation management tailored to your personal or professional needs.",
+    image: Reputation,
   },
 ];
 

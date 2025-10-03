@@ -13,18 +13,18 @@ import heroImage3 from "@assets/generated_images/Hero_slide_business_growth_fff4
 const slides = [
   {
     image: heroImage1,
-    title: "Transform Your Business Vision",
-    description: "Empowering organizations with innovative digital solutions that drive growth and excellence in the modern marketplace.",
+    title: "Welcome to Aura Persona",
+    description: "Empowering the extraordinary. At Aura Persona, we redefine celebrity management by connecting talent with meaningful opportunities that reflect their unique essence."  
   },
   {
     image: heroImage2,
-    title: "Innovation Meets Excellence",
-    description: "Cutting-edge technology and strategic consulting converge to create unprecedented opportunities for your success.",
+    title: "Crafting Iconic Careers",
+    description: "From brand partnerships to public relations, we create bespoke strategies that position our clients for long-lasting influence and impact.",
   },
   {
     image: heroImage3,
-    title: "Elevate Your Digital Presence",
-    description: "Partner with industry leaders to unlock your potential and achieve remarkable business transformation.",
+    title: "A Legacy of Excellence",
+    description: "Our commitment to integrity, personalization, and innovation ensures every client's journey is one of lasting success and authenticity.",
   },
 ];
 
@@ -50,6 +50,13 @@ export default function HeroSection() {
       document.head.removeChild(style);
     };
   }, []);
+
+    const scrollToAbout = () => {
+    const element = document.getElementById("about");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <section id="home" className="relative min-h-screen">
@@ -79,12 +86,12 @@ export default function HeroSection() {
                       {slide.description}
                     </p>
                     <Button
+                      onClick={scrollToAbout}
                       size="lg"
                       className="bg-gradient-to-r from-gold to-gold-light text-navy-dark font-semibold text-lg px-8 py-6 hover:shadow-xl transition-all"
                       data-testid={`button-hero-cta-${index}`}
-                      onClick={() => console.log(`Hero CTA ${index + 1} clicked`)}
                     >
-                      Get Started Today
+                      Discover More
                     </Button>
                   </div>
                 </div>
